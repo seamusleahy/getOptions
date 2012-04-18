@@ -9,8 +9,8 @@
  *  - 
  *
  * `$('select#foo').getOptions()
- * => {'a': {label: 'A option', value: 'a', checked: false, disabled: false, data: {}, toString: function(){}},
-*      'b': {label: 'B option', value: 'a', checked: false, disabled: false, data: {}, toString: function(){}}}`
+ * => {'a': {label: 'A option', value: 'a', selected: false, disabled: false, data: {}, toString: function(){}},
+*      'b': {label: 'B option', value: 'a', selected: false, disabled: false, data: {}, toString: function(){}}}`
  *
  * Options:
  *  - flip boolean (false): flip the value and label
@@ -41,7 +41,7 @@
             inst = {
               value: val, 
               label: label,
-              checked: !!op.attr('checked'),
+              selected: !!op.attr('selected'),
               disabled: !!op.attr('disabled'),
               data: op.data(), // all the data attributes
               

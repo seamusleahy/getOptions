@@ -17,7 +17,7 @@ $('#s').getOptions()
   'a': {
     label: 'A option', 
     value: 'a', 
-    checked: false, 
+    selected: false, 
     disabled: false, 
     data: {
       custom: 'food'
@@ -28,7 +28,7 @@ $('#s').getOptions()
   'b': {
     label: 'B option', 
     value: 'a', 
-    checked: false, 
+    selected: false, 
     disabled: false, 
     data: {}, 
     toString: function(){}
