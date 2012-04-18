@@ -33,7 +33,8 @@ $('#s').getOptions()
     data: {}, 
     toString: function(){}
   }
-}`
+}
+```
 
 ## Options ##
 
